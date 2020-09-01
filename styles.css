@@ -1,32 +1,44 @@
 h1{
   text-align: center;
 }
+
 h2{
   text-align: center;
   font-size: 28px;
 }
+
 body {
   font-family: arial, sans-serif;
   background: #ffffff;
   color: #222;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
+
+.bottomnav .bottom-ul {
+  background-color: #f2f2f2;
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 20%;
 }
-  ul {
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #ffffff;
 }
+
 li {
   float: left;
 }
+
 li a {
   display: block;
   color: #4a4a4a;
@@ -34,13 +46,15 @@ li a {
   padding: 14px 10px 100px;
   text-decoration: none;
 }
+
 li a:hover {
-  background-color: #ffff;
   text-decoration: underline;
 }
+
 ul {
   /* background-color: #f2f2f2; */
-}  
+}
+
 .centernav .input-field {
   float: center;
   font-family: arial, sans-serif;
@@ -54,24 +68,29 @@ ul {
   border-radius: 30px;
   border-color: #e0e3e6;
 }
-/*.centernav:hover {
-     
+
+.centernav .input-field:hover {
+  border: 1px solid darkgray; 
+  box-shadow: 0px 0px 13px 4px darkgrey;
 }
-*/
+
 .centernav i {
    position: absolute;
    margin-left: 10px;
-} 
+}
+
 .fas.fa-search{
   color: #4384f3;
   padding: 20px;
   font-size: 20px;
   align-content: right;
 }
- i {
+
+i {
    position: absolute;
    margin-left: 10px;
 }
+
 .bottomnav {
   background-color: #f2f2f2;
   font-family: arial, sans-serif;
@@ -80,6 +99,7 @@ ul {
   width: 100%;
   padding: 8px 8px 5px 1px;
 }
+
 .navbar a {
   float: center;
   display: block;
