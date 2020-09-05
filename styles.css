@@ -93,8 +93,8 @@ i {
   font-family: arial, sans-serif;
   position: fixed;
   bottom: 0;
-  width: 100%;
-  padding: 10px 10px 10px 10px;
+  width: calc(100% - 20px);
+  padding: 10px;
   height: 40px;
   border-top: 1px solid #e4e4e4;
 }
